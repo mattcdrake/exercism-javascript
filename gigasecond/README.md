@@ -1,17 +1,8 @@
-# Bob
+# Gigasecond
 
-Bob is a lackadaisical teenager. In conversation, his responses are very limited.
+Calculate the moment when someone has lived for 10^9 seconds.
 
--Bob answers 'Sure.' if you ask him a question.
-
--He answers 'Whoa, chill out!' if you yell at him.
-
--He answers 'Calm down, I know what I'm doing!' if you yell a question at him.
-
-He says 'Fine. Be that way!' if you address him without actually saying
-anything.
-
-He answers 'Whatever.' to anything else.
+A gigasecond is 10^9 (1,000,000,000) seconds.
 
 ## Setup
 
@@ -33,7 +24,7 @@ npm install -g jasmine
 Run the test suite from the exercise directory with:
 
 ```sh
-jasmine bob.spec.js
+jasmine gigasecond.spec.js
 ```
 
 In many test suites all but the first test have been marked "pending".
@@ -41,7 +32,7 @@ Once you get a test passing, activate the next one by changing `xit` to `it`.
 
 ## Source
 
-Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=06](http://pine.fm/LearnToProgram/?Chapter=06)
+Chapter 9 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=09](http://pine.fm/LearnToProgram/?Chapter=09)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
