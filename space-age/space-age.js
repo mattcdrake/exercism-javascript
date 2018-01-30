@@ -4,15 +4,15 @@ class SpaceAge {
     }
 
     onEarth() {
-        return parseFloat((this.seconds / 31557600).toFixed(2));
+        return this.round2(parseFloat((this.seconds / 31557600)));
     }
 
     onMercury() {
-        return parseFloat(((this.onEarth()) / 0.2408467).toFixed(2));
+        return this.round2(parseFloat(((this.onEarth()) / 0.2408467)));
     }
 
     onVenus() {
-        return parseFloat(((this.onEarth()) / 0.6159726).toFixed(2));
+        return ((this.onEarth()) / 0.6159726).toFixed(2);
     }
 
     onMars() {
@@ -33,6 +33,10 @@ class SpaceAge {
 
     onNeptune() {
         return parseFloat((this.seconds / this.onEarth()).toFixed(2));
+    }
+
+    round2(value) {
+        return Math.round(value * 100) / 100;
     }
 }
 
